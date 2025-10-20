@@ -1,110 +1,83 @@
-/* .name{
- display: block;
-margin-top: 9px;
+body{
+  color:  #00ff9d;
+  background-image:url(unnamed.png);
+  padding: 20px;
   
 }
-.email{
-margin-top: 10px;
+h1, h2{
+  text-align: center;
+  font-family: sans-serif;
+  
+  
 }
-.text{
-  width: 200px;
+.container{
+  width: 80%;
+  background-color: #0f0f1b;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  min-width: 515px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgb(43, 186, 252);
+  padding-top: 10px;
+
+}
+.white{
+  color: white;
+}
+.nion{
+  font-style: italic;
+  color: #00F5FF;
+}
+article p{
   display: inline-block;
-  margin-left: 180px;
-  margin-top: 20px;
-  vertical-align: middle;
+  color:  #ff7a00;
+  margin-top: 5px;
+  
   
 }
-.img{
-  width: 300px;
-  vertical-align:middle;
-  margin-left: 120px;
+.name{
+text-align: left;
+width: 75%;
 }
-.shadow-button{
-        width: 500px;
-        height: 40px;
-        margin-left: 20px;
-        margin-top: -20px;
-        vertical-align: middle;
-       border: none;
-        background-color: white;
-        border-radius: 30px;
-        font-size: 15px;
-       text-indent: 15px;
-       box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15) ;} */
-       .first{
-       
-       border-radius: 5px;
-       border: 1px solid gray;
-      width: 100px;
-      height: 30px;
-       text-indent: 10px;
-       }
-       .last{
-         border-radius: 5px;
-       border: 1px solid gray;
-      width: 100px;
-      height: 30px;
-       text-indent: 10px;
-       }
-       .email{
-        display: block;
-        margin-top: 11px;
-        border-radius: 5px;
-       border: 1px solid gray;
-      width: 210px;
-      height: 30px;
-       text-indent: 10px;
-       }
-       .sign-up{
-        padding-left: 80px;
-        padding-right: 80px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        color: white;
-        font-size: 15px;
-        font-weight: bold;
-        background-color: rgb(68, 111, 232);
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-top: 15px;
-        margin-bottom: 100px;
-       }
-       .pickup{
-        padding-top: 11px;
-        padding-bottom: 11px;
-        padding-right: 150px;
-        padding-left: 15px;
-        border: none;
-        display: block;
-        background-color: rgb(238, 235, 235);
-        margin-bottom: 10px;
-
-       }
-      .destination{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 150px;
-        padding-left: 15px;
-        border: none;
-        display: block;
-        background-color: rgb(238, 235, 235);
-
-      }
-      .black{
-        margin-top: 20px;
-        height: 40px;
-        width: 120px;
-        background-color: black;
-        color: white;
-        margin-right: 15px;
-        cursor: pointer;
-      }
-      .gray{
-        height: 40px;
-        width: 140px;
-        border: none;
-        background-color: rgb(238, 235, 235);
-        cursor: pointer;
-      }
-      
+.price{
+  text-align: right;
+  width: 24%;
+}
+.masterpices{
+  color: #00F5FF;
+  font-style: italic;
+}
+.namee{
+  text-align: left;
+width: 75%;
+color: blanchedalmond;
+}
+.pricee{
+   text-align: right;
+  width: 24%;
+  color: wheat;
+}
+hr{
+  background-color: crimson;
+  border-color: crimson;
+  height: 2px;
+}
+/* footer*/
+footer p{
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 25px;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: brown;
+  transition: color 0.3s ease;
+}
+a:active{
+  color: rgb(70, 16, 245);
+}
